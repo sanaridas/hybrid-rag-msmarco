@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+
+# Data & heavy artifacts
+data/
+outputs/
+indexes/
+models/
+*.faiss
+*.npy
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
